@@ -1,0 +1,300 @@
+================ SORT & ALGORITHM REPORT ================
+
+=========================================================
+SORT RESULTS FOR FILE: lalaland.txt
+=========================================================
+
+--- [ALGORITHM 1] BUBBLE SORT RESULTS ---
+Time Taken:   0.000000 seconds
+Total Steps:  805
+---------------------------------------------------------------
+WORD                 CATEGORY             FREQUENCY
+---------------------------------------------------------------
+ill                  general_toxicity     13
+shit                 general_toxicity     5
+shoot                general_toxicity     5
+fuck                 sexual_toxicity      3
+burn                 violent_speech       2
+crazy                ableism              2
+crazed               general_toxicity     2
+damn                 general_toxicity     2
+dirty                general_toxicity     2
+hell                 general_toxicity     2
+
+
+--- [ALGORITHM 2] MERGE SORT RESULTS ---
+Time Taken:   0.000000 seconds
+Total Steps:  124
+---------------------------------------------------------------
+WORD                 CATEGORY             FREQUENCY
+---------------------------------------------------------------
+ill                  general_toxicity     13
+shit                 general_toxicity     5
+shoot                general_toxicity     5
+fuck                 sexual_toxicity      3
+burn                 violent_speech       2
+crazy                ableism              2
+crazed               general_toxicity     2
+damn                 general_toxicity     2
+dirty                general_toxicity     2
+hell                 general_toxicity     2
+
+
+ [ PERFORMANCE COMPARISON FOR lalaland.txt ] 
+---------------------------------------------------------------
+METRIC          | BUBBLE SORT         | MERGE SORT
+---------------------------------------------------------------
+Time Taken      | 0.000000            | 0.000000
+Steps           | 805                 | 124
+---------------------------------------------------------------
+
+Conclusion: Merge Sort is more efficient.
+
+---------------------------------------------------------------
+
+--- TOP 3 TOXIC WORDS PER CATEGORY ---
+
+[general_toxicity]
+1. ill                  13
+2. shit                 5
+3. shoot                5
+
+[sexual_toxicity]
+1. fuck                 3
+2. chick                1
+3. dick                 1
+
+[violent_speech]
+1. burn                 2
+2. beating              1
+3. choke                1
+
+[ableism]
+1. crazy                2
+2. insanity             2
+
+[harassment]
+1. nuts                 2
+2. ass                  1
+3. asshole              1
+
+[religious_hate]
+1. goddamned            1
+
+[violent_extremism]
+1. kkk                  1
+
+[general_slang]
+1. pants                1
+
+=========================================================
+SORT RESULTS FOR FILE: supertoxic.txt
+=========================================================
+
+--- [ALGORITHM 1] BUBBLE SORT RESULTS ---
+Time Taken:   0.000000 seconds
+Total Steps:  195
+---------------------------------------------------------------
+WORD                 CATEGORY             FREQUENCY
+---------------------------------------------------------------
+pussy                sexual_toxicity      6
+fucking              sexual_toxicity      5
+fuck                 sexual_toxicity      4
+dirty                general_toxicity     2
+fat                  general_toxicity     2
+wetback              hate_speech          2
+ass                  harassment           1
+antiamerican         ideology_attack      1
+cock                 sexual_toxicity      1
+dick                 sexual_toxicity      1
+
+
+--- [ALGORITHM 2] MERGE SORT RESULTS ---
+Time Taken:   0.000000 seconds
+Total Steps:  48
+---------------------------------------------------------------
+WORD                 CATEGORY             FREQUENCY
+---------------------------------------------------------------
+pussy                sexual_toxicity      6
+fucking              sexual_toxicity      5
+fuck                 sexual_toxicity      4
+dirty                general_toxicity     2
+fat                  general_toxicity     2
+wetback              hate_speech          2
+ass                  harassment           1
+antiamerican         ideology_attack      1
+cock                 sexual_toxicity      1
+dick                 sexual_toxicity      1
+
+
+ [ PERFORMANCE COMPARISON FOR supertoxic.txt ] 
+---------------------------------------------------------------
+METRIC          | BUBBLE SORT         | MERGE SORT
+---------------------------------------------------------------
+Time Taken      | 0.000000            | 0.000000
+Steps           | 195                 | 48
+---------------------------------------------------------------
+
+Conclusion: Merge Sort is more efficient.
+
+---------------------------------------------------------------
+
+--- TOP 3 TOXIC WORDS PER CATEGORY ---
+
+[sexual_toxicity]
+1. pussy                6
+2. fucking              5
+3. fuck                 4
+
+[general_toxicity]
+1. dirty                2
+2. fat                  2
+3. smelly               1
+
+[hate_speech]
+1. wetback              2
+2. wop                  1
+
+[harassment]
+1. ass                  1
+2. loser                1
+3. stupid               1
+
+[ideology_attack]
+1. antiamerican         1
+
+[hate_extremism]
+1. nazi                 1
+
+=========================================================
+SORT RESULTS FOR FILE: toxic_sentence.csv
+=========================================================
+
+--- [ALGORITHM 1] BUBBLE SORT RESULTS ---
+Time Taken:   0.003000 seconds
+Total Steps:  4569063948392926064
+---------------------------------------------------------------
+WORD                 CATEGORY             FREQUENCY
+---------------------------------------------------------------
+disgusting           general_toxicity     496
+fat                  general_toxicity     231
+pathetic             harassment           110
+sexual               sexual_identity      85
+fucking              sexual_toxicity      83
+ill                  general_toxicity     78
+ugly                 harassment           68
+shit                 general_toxicity     66
+sex                  sexual_identity      64
+kill                 violent_speech       61
+
+
+--- [ALGORITHM 2] MERGE SORT RESULTS ---
+Time Taken:   0.002000 seconds
+Total Steps:  4566758105005688714
+---------------------------------------------------------------
+WORD                 CATEGORY             FREQUENCY
+---------------------------------------------------------------
+disgusting           general_toxicity     496
+fat                  general_toxicity     231
+pathetic             harassment           110
+sexual               sexual_identity      85
+fucking              sexual_toxicity      83
+ill                  general_toxicity     78
+ugly                 harassment           68
+shit                 general_toxicity     66
+sex                  sexual_identity      64
+kill                 violent_speech       61
+
+
+ [ PERFORMANCE COMPARISON FOR toxic_sentence.csv ] 
+---------------------------------------------------------------
+METRIC          | BUBBLE SORT         | MERGE SORT
+---------------------------------------------------------------
+Time Taken      | 0.003000            | 0.002000
+Steps           | 68464               | 1930
+---------------------------------------------------------------
+
+Conclusion: Merge Sort is more efficient.
+
+---------------------------------------------------------------
+
+--- TOP 3 TOXIC WORDS PER CATEGORY ---
+
+[general_toxicity]
+1. disgusting           496
+2. fat                  231
+3. ill                  78
+
+[harassment]
+1. pathetic             110
+2. ugly                 68
+3. sick                 56
+
+[sexual_identity]
+1. sexual               85
+2. sex                  64
+3. queer                9
+
+[sexual_toxicity]
+1. fucking              83
+2. fuck                 46
+3. perverted            16
+
+[violent_speech]
+1. kill                 61
+2. abused               29
+3. predators            25
+
+[ableism]
+1. mental               20
+2. mentally             17
+3. crazy                10
+
+[sexual_violence]
+1. raped                15
+2. rape                 2
+3. motherfucking        1
+
+[hate_speech]
+1. bigots               13
+2. bigotry              12
+3. nigga                8
+
+[general_slang]
+1. pants                9
+2. poo                  1
+3. poop                 1
+
+[religious_hate]
+1. goddamn              6
+
+[violent_extremism]
+1. isis                 5
+2. kkk                  3
+
+[sexual_reference]
+1. naked                2
+2. cox                  1
+
+[sexual_content]
+1. penis                2
+
+[extremist_ref]
+1. adolf                1
+
+[drug_reference]
+1. coke                 1
+
+[politic_related]
+1. hitler               1
+
+[political_attack]
+1. narcissist           1
+2. narcissists          1
+3. narcissistic         1
+
+[hate_extremism]
+1. nazis                1
+
+---------------------------------------------------------------
+

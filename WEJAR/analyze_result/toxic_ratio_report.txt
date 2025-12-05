@@ -1,0 +1,45 @@
+=========== TOXIC RATIO REPORT ===========
+Formula Using : ToxicityIndex = (boostedScore * 100) / totalWords 
+
+FILE: lalaland.txt
+Total Words (cleaned)  : 17870
+Total Words (toxic)    : 68
+Toxic Words percentage : 0.38%
+Boosted Toxic Score    : 501
+Toxicity Ratio         : 2.80
+
+Conclusion:Toxic Ratio < 10: The file is generally non-toxic.
+           It may contain isolated toxic words, but they are either mild or contextually harmless.
+
+FILE: supertoxic.txt
+Total Words (cleaned)  : 148
+Total Words (toxic)    : 33
+Toxic Words percentage : 22.30%
+Boosted Toxic Score    : 592
+Toxicity Ratio         : 400.00
+
+Conclusion: Toxic Ratio >= 50: The file is extremely toxic.
+            Severe toxic language is used excessively, indicating highly abusive, threatening, or hateful content.
+
+FILE: toxic_sentence.csv
+Total Words (cleaned)  : 102043
+Total Words (toxic)    : 3219
+Toxic Words percentage : 3.15%
+Boosted Toxic Score    : 30413
+Toxicity Ratio         : 29.80
+
+Conclusion: Toxic Ratio between 20-30: The file shows moderate toxicity.
+            Toxic language appears regularly, and its usage affects the overall tone of the content.
+
+===========================================
+        TOXICITY COMPARISON SUMMARY
+===========================================
+
+Most Toxic File:
+  File Name      : supertoxic.txt
+  Toxicity Ratio : 400.00
+
+Least Toxic File:
+  File Name      : lalaland.txt
+  Toxicity Ratio : 2.80
+

@@ -1,0 +1,12 @@
+===== COMPLEXITY REPORT FOR: analyze_source/temp_complexity_csv_1.txt =====
+Total Words:          102043
+Unique Words:         8999
+Total Sentences:      258
+Lexical Diversity:    0.088
+Avg Word Length:      4.88 characters
+Avg Sentence Length:  395.52 words
+Max Sentence Length:  3772
+Min Sentence Length:  2
+
+--------------------------------------
+
